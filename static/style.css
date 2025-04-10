@@ -1,0 +1,68 @@
+
+body {
+    padding-top: 2rem;
+    background-color: var(--bs-body-bg);
+    transition: background-color 0.3s ease;
+}
+
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+    border: none;
+}
+
+.card-header {
+    background-color: #563d7c;
+    color: white;
+}
+
+.loading-spinner {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer {
+    margin-top: 3rem;
+    text-align: center;
+    color: #6c757d;
+    padding-bottom: 2rem;
+}
+
+.priority-badge {
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.high-priority {
+    background-color: #28a745;
+    color: white;
+}
+
+.scrape-info {
+    font-size: 1.1rem;
+}
+
+.lead-type-icon {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+.url-validator-feedback {
+    display: none;
+    margin-top: 0.25rem;
+}
+
+.theme-switch {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 1000;
+}
+
+#status-updates {
+    max-height: 150px;
+    overflow-y: auto;
+}
